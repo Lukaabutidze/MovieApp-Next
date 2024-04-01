@@ -1,21 +1,21 @@
-import { Inter } from "next/font/google";
+import { Lora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "./Providers";
 import Navbar from "@/components/Navbar";
 import SearchBox from "@/components/SearchBox";
 
-const inter = Inter({ subsets: ["latin"] });
+const lora = Lora({ weight: "500", subsets: ["latin"] });
 
 export const metadata = {
   title: "Movie App",
-  description: "movie app with next",
+  description: "Movie app with next",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={lora.className}>
         <Providers>
           <Header />
           <Navbar />
