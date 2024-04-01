@@ -2,6 +2,7 @@ import Link from "next/link";
 import MenuItem from "./MenuItem";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
+import { MdOutlineContactMail } from "react-icons/md";
 import DarkModeSwitch from "./DarkModeSwitch";
 
 const Header = () => {
@@ -10,6 +11,11 @@ const Header = () => {
       <div className="flex gap-5">
         <MenuItem title="home" address="/" Icon={AiFillHome} />
         <MenuItem title="about" address="/about" Icon={BsFillInfoCircleFill} />
+        <MenuItem
+          title="contact"
+          address="/contact"
+          Icon={MdOutlineContactMail}
+        />
       </div>
       <div className="flex items-center gap-5">
         <DarkModeSwitch />
