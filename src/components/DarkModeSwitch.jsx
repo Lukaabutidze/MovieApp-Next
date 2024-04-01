@@ -16,12 +16,12 @@ const DarkModeSwitch = () => {
         (currentTheme === "dark" ? (
           <MdLightMode
             onClick={() => setTheme("light")}
-            className="text-2xl cursor-pointer hover:text-amber-500"
+            className="text-3xl cursor-pointer hover:text-amber-500"
           />
         ) : (
           <MdDarkMode
             onClick={() => setTheme("dark")}
-            className="text-2xl cursor-pointer hover:text-amber-500"
+            className="text-3xl cursor-pointer hover:text-amber-500"
           />
         ))}
     </div>

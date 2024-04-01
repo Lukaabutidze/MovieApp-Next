@@ -8,8 +8,11 @@ import SearchBox from "@/components/SearchBox";
 const lora = Lora({ weight: "500", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Movie App",
+  title: "Movie Zone",
   description: "Movie app with next",
+  icons: {
+    icon: "/movieimage.png",
+  },
 };
 
 export default function RootLayout({ children }) {

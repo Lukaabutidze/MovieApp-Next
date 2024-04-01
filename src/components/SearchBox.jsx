@@ -19,7 +19,7 @@ const SearchBox = () => {
       <input
         type="text"
         placeholder="Enter keywords..."
-        className="w-full h-12 mt-4 rounded-md placeholder-gray-500 outline-none bg-transparent flex-1 border placeholder:ml-1 shadow-lg"
+        className="w-full h-12 mt-4 rounded-md placeholder-gray-500 outline-none bg-transparent flex-1 border placeholder:ml-1 pl-4 shadow-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
