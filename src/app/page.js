@@ -11,6 +11,7 @@ const Home = async ({ searchParams }) => {
     { next: { revalidate: 10000 } }
   );
   const data = await res.json();
+
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
