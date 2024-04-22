@@ -65,7 +65,7 @@ const ContactUs = () => {
           <div className="mb-5">
             <label
               htmlFor="message"
-              className="mb-2 sm:mb-3 block text-sm sm:text-base font-semibold "
+              className="mb-2 sm:mb-3 block text-sm sm:text-base font-semibold"
             >
               Message
             </label>
@@ -80,7 +80,7 @@ const ContactUs = () => {
           <div>
             <button
               type="submit"
-              className="hover:shadow-form rounded-md bg-amber-400 py-2 px-4 sm:py-3 sm:px-8 text-sm sm:text-base font-semibold text-black outline-none cursor-pointer"
+              className="hover:shadow-form rounded-md bg-amber-400 py-2 px-4 sm:py-3 sm:px-8 text-sm sm:text-base font-semibold text-black outline-none cursor-pointer hover:scale-110 transition-all-ease duration-500 shadow-lg"
             >
               Submit
             </button>

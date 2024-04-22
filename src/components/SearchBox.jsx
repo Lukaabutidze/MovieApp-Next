@@ -36,7 +36,7 @@ const SearchBox = () => {
 
       <button
         type="submit"
-        className="text-xl font-bold bg-amber-500 py-1 px-2 rounded-lg h-10 mt-5 cursor-pointer hover:scale-110 transition-all-ease duration-500 shadow-lg"
+        className="text-xl font-bold bg-amber-500 py-1 px-4 rounded-lg h-10 mt-5 cursor-pointer hover:scale-110 transition-all-ease duration-500 shadow-lg"
       >
         Search
       </button>

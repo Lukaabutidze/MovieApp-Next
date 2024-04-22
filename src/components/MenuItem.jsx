@@ -3,9 +3,11 @@ import React from "react";
 
 const MenuItem = ({ title, address, Icon }) => {
   return (
-    <Link href={address} className="hover:text-amber-500">
+    <Link href={address}>
       <Icon className="text-2xl sm:hidden" />
-      <p className="uppercase hidden sm:inline text-xl font-bold">{title}</p>
+      <p className="uppercase hidden sm:inline text-2xl font-bold hover:opacity-70">
+        {title}
+      </p>
     </Link>
   );
 };
